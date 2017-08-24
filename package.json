@@ -1,0 +1,28 @@
+{
+  "name": "koa-boilerplate",
+  "version": "1.0.0",
+  "description": "A node application base on koa with es6 support.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "backpack",
+    "build": "backpack build"
+  },
+  "author": "funkyLover",
+  "bugs": {
+    "url": "https://github.com/funkyLover/koa-boilerplate/issues"
+  },
+  "dependencies": {
+    "koa": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "backpack-core": "^0.4.2",
+    "eslint": "^4.5.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}

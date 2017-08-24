@@ -1,3 +1,10 @@
+# IDE
+.vscode
+.idea
+
+# build
+build/
+
 # Logs
 logs
 *.log
