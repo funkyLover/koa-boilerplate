@@ -4,6 +4,8 @@ A node application base on koa with es6 support.
 
 ## WIP
 
-- [ ] log record
+- [ ] API Router
+- [ ] Authentication
+- [x] Logger
 - [ ] client side boilerplate(vue/react)
-- [ ] database support(mongo)
+- [ ] Database(mongo)
