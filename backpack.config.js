@@ -13,7 +13,7 @@ module.exports = {
     }
     config.module.rules.unshift(eslintConfig)
     // entry
-    config.entry.main = resolve(__dirname, 'index.js')
+    config.entry.main = resolve(__dirname, 'server', 'index.js')
     return config
   }
 }
