@@ -1,8 +1,21 @@
 
 import winston from 'winston'
-// import dailyRotateFile from 'winston-daily-rotate-file'
+// import DailyRotateFile from 'winston-daily-rotate-file'
 
 // @TODO: log file;
+// const transport = new DailyRotateFile({
+//   filename: './log',
+//   datePattern: 'yyyy-MM-dd.',
+//   prepend: true,
+//   level: process.env.ENV === 'development' ? 'debug' : 'info'
+// })
+
+// const winstonLogger = new winston.Logger({
+//   transports: [
+//     transport
+//   ]
+// })
+
 const logger = {
   debug: createLogger('debug'),
   info: createLogger('info'),
